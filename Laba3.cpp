@@ -24,7 +24,6 @@ int main(int argc, char* argv[])
         cin>>n;
 	for (double i=x; i<b; i=i+h){
 		for(int k=0; k<n; k++){
-                //Memo1->Lines->Add(k);
 			  minusOne = minusOne * (-1);
 			  up = pow(x, (2*k+1));
 			  down = 1;
